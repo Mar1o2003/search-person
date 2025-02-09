@@ -19,7 +19,7 @@
 ### Шаги для запуска проекта:
 
 1. **Клонируйте репозиторий**:
- **git clone (https://github.com/Mar1o2003/search-person).git
+ **git clone [(https://github.com/Mar1o2003/search-person).git]
 
 2. Установите зависимости:
 **pip install -r requirements.txt
