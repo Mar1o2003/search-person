@@ -1,0 +1,36 @@
+2025-02-08 16:36:07,564 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-08 16:36:07,565 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-08 16:36:07,566 - INFO -  * Restarting with stat
+2025-02-08 16:36:08,446 - WARNING -  * Debugger is active!
+2025-02-08 16:36:08,452 - INFO -  * Debugger PIN: 291-831-759
+2025-02-08 16:36:24,606 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-08 16:36:24,607 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-08 16:36:24,609 - INFO -  * Restarting with stat
+2025-02-08 16:36:25,556 - WARNING -  * Debugger is active!
+2025-02-08 16:36:25,563 - INFO -  * Debugger PIN: 291-831-759
+2025-02-08 16:36:50,668 - INFO - Request: GET http://127.0.0.1:5000/search?surname=������&name=����� - Params: {'surname': '������', 'name': '�����'} - Body: None
+2025-02-08 16:36:50,858 - INFO - 127.0.0.1 - - [08/Feb/2025 16:36:50] "GET /search?surname=������&name=����� HTTP/1.1" 200 -
+2025-02-08 16:37:02,900 - INFO - Request: GET http://127.0.0.1:5000/get_by_id?id_ern=33 - Params: {'id_ern': '33'} - Body: None
+2025-02-08 16:37:02,903 - INFO - 127.0.0.1 - - [08/Feb/2025 16:37:02] "GET /get_by_id?id_ern=33 HTTP/1.1" 200 -
+2025-02-08 16:37:46,056 - INFO - Request: POST http://localhost:5000/create_person - Params: {} - Body: {'surname': '����������', 'name': '��������', 'patronymic': '�����������', 'date_of_birth': '1981-22-03', 'gender': 2}
+2025-02-08 16:37:46,076 - INFO - 127.0.0.1 - - [08/Feb/2025 16:37:46] "[35m[1mPOST /create_person HTTP/1.1[0m" 500 -
+2025-02-08 16:38:29,261 - INFO - Request: POST http://localhost:5000/create_person - Params: {} - Body: {'surname': '����������', 'name': '��������', 'patronymic': '�����������', 'date_of_birth': '1981-11-03', 'gender': 2}
+2025-02-08 16:38:29,272 - INFO - 127.0.0.1 - - [08/Feb/2025 16:38:29] "[35m[1mPOST /create_person HTTP/1.1[0m" 201 -
+2025-02-08 16:40:26,452 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-08 16:40:26,452 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-08 16:40:26,454 - INFO -  * Restarting with stat
+2025-02-08 16:40:27,329 - WARNING -  * Debugger is active!
+2025-02-08 16:40:27,336 - INFO -  * Debugger PIN: 291-831-759
+2025-02-09 21:05:17,534 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-09 21:05:17,534 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-09 21:05:17,538 - INFO -  * Restarting with stat
+2025-02-09 21:05:18,510 - WARNING -  * Debugger is active!
+2025-02-09 21:05:18,516 - INFO -  * Debugger PIN: 291-831-759
+2025-02-09 21:05:54,059 - INFO - Request: GET http://127.0.0.1:5000/get_by_id?id_ern=50 - Params: {'id_ern': '50'} - Body: None
+2025-02-09 21:05:54,169 - INFO - 127.0.0.1 - - [09/Feb/2025 21:05:54] "GET /get_by_id?id_ern=50 HTTP/1.1" 200 -
+2025-02-09 21:06:17,811 - INFO - Request: POST http://localhost:5000/create_person - Params: {} - Body: {'surname': '���������', 'name': '������', 'patronymic': '�����������', 'date_of_birth': '1981-11-03', 'gender': 1}
+2025-02-09 21:06:17,828 - INFO - 127.0.0.1 - - [09/Feb/2025 21:06:17] "[35m[1mPOST /create_person HTTP/1.1[0m" 201 -
